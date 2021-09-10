@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/default.css" rel="stylesheet" type="text/css">
+    <title>Tanim Pavel, ITIS 3135, Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tanim Pavel >> ITIS3135</h1>
+    </header>
+    <nav>
+        <a href="introduction.html">Introduction</a>
+        ||
+        <a href="contract.html">Contract</a>
+        ||
+        <a href="tables.html">Tables</a>
+        ||
+        <a href="form.html">Form</a>
+    </nav>
+
+    <main>
+        <h2>Form - Programming Newsletter</h2>
+        
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="First Last" size="40"><br>
+            
+            <label for="phone">Phone Number (Optional):</label>
+            <input type="tel" id="phone" name="phone" placeholder="111-111-1111" size="13"><br>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="tom@example.com" size="25"><br>
+
+            <label for="age">Age (Optional):</label>
+            <input type="number" id="age" name="age"><br>
+
+            <p>Select your desired programming langauges:</p>
+            
+            <input type="checkbox" id="python" name="python" value="Python" checked>
+            <label for="python">Python</label><br>
+            
+            <input type="checkbox" id="csharp" name="csharp" value="Csharp">
+            <label for="csharp">C#</label><br>
+            
+            <input type="checkbox" id="java" name="java" value="Java">
+            <label for="java">Java</label><br>
+
+            <p>Choose newsletter frequency:</p>
+
+            <input type="radio" id="weekly" name="frequency" value="Weekly" checked>
+            <label for="weekly">Weekly</label><br>
+
+            <input type="radio" id="monthly" name="frequency" value="Monthly">
+            <label for="monthly">Monthly</label><br><br>
+
+            <label for="langauges">Langauge: </label>
+            <select id = "langauges" name = "langauges">
+                <option value = "English" selected>English</option>
+                <option value = "Spanish">Spanish</option>
+                <option value = "German">German</option>
+            </select><br><br>
+            
+            <input class=submitbtn type="submit" value="Submit Form"> 
+
+        </form>
+
+        <br>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="http://webpages.uncc.edu/tpavel" target="_blank">Charlotte.edu</a> ||
+            <a href="https://github.com/sade479" target="_blank">Github</a> ||
+            <a href="https://sade479.github.io" target="_blank">Github.io</a> ||
+            <a href="https://sade479.github.io/itis3135" target="_blank">ITIS 3135 Github Pages</a> ||
+            <a href="https://www.freecodecamp.org/tpavel" target="_blank">Freecodecamp</a> ||
+
+        </nav>
+        <p>Page built by Pavel Designs</p>
+        <a href="https://validator.w3.org/check?uri=referer">
+			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator"></a>
+
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">
+			<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator"></a>
+    </footer>
+</body>
+</html>

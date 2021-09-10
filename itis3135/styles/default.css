@@ -70,3 +70,20 @@ tr:nth-child(even) {
     background-color: white;
     color: black;
 }
+
+.submitbtn {
+    background-color: black;
+    color: white;
+}
+
+form {
+  text-align: center;
+}
+
+form input {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+
