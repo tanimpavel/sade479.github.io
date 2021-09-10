@@ -26,12 +26,13 @@ a:hover {
     text-decoration: underline;
 }
 
-figure {
+.figprofile {
     text-align: center;
 }
 
 figcaption {
     font-style: italic;
+    text-align: center;
 }
 
 nav {
@@ -40,4 +41,32 @@ nav {
 
 #mainlist {
     margin-left: 100px;
+}
+
+ol {
+    margin-left: 35%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+    text-align: right;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #EC8B5E;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+    color: black;
 }
