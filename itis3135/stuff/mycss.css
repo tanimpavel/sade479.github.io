@@ -1,0 +1,14 @@
+ul {
+    color: yellow;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+p {
+    text-align: center;
+    font-size: xx-large;
+}
+
+div {
+    border-style: dotted dashed double solid;
+}
