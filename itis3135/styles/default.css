@@ -39,12 +39,14 @@ nav {
     text-align: center;
 }
 
-#mainlist {
-    margin-left: 100px;
+.centerlist {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 ol {
     margin-left: 35%;
+    margin-right: 35%;
 }
 
 table {
@@ -84,6 +86,10 @@ form input {
     font-family: 'Roboto', sans-serif;
     color:white;
     background-color: black;
+    text-align: center;
+}
+
+p {
     text-align: center;
 }
 
