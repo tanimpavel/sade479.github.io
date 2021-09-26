@@ -99,3 +99,8 @@ p {
     column-gap: 10px;
 }
 
+button {
+    background-color: black;
+    color: white;
+}
+
