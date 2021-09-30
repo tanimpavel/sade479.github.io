@@ -45,13 +45,14 @@ nav {
 }
 
 ol {
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 table {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    table-layout: fixed;
 }
 
 .right {
@@ -103,4 +104,3 @@ button {
     background-color: black;
     color: white;
 }
-
