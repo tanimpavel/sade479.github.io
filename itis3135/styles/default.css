@@ -104,3 +104,40 @@ button {
     background-color: black;
     color: white;
 }
+
+#calculatorDisplay {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 250px;
+}
+
+.calculatorKeys {
+    display: grid;
+    justify-items: center;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.calculatorButton {
+    height: 50px;
+    width: 50px;
+    font-size: 1em;
+}
+
+.calculatorOperator {
+    background-color: #EC8B5E;
+}
+
+.calculatorEquals {
+    background-color: rgb(36, 172, 99);
+}
+
+.clearButton {
+    font-size: 1em;
+    grid-column: span 4;
+    background-color: rgb(235, 37, 37);
+}
