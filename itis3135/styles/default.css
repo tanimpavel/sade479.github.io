@@ -141,3 +141,8 @@ button {
     grid-column: span 4;
     background-color: rgb(235, 37, 37);
 }
+
+#results_table {
+    margin-left: auto;
+    margin-right: auto;
+}

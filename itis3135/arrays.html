@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link href="styles/default.css" rel="stylesheet" type="text/css">
-    <title>Tanim Pavel, ITIS 3135, First Scripts</title>
-    <script src="scripts/first-scripts.js"></script>
+    <title>Tanim Pavel, ITIS 3135, Arrays</title>
+    <script src="scripts/arrays.js" defer></script>
 </head>
 
 <body>
@@ -32,28 +32,43 @@
     </nav>
 
     <main>
-        <h2>First Scripts</h2>
+        <h2>Arrays</h2>
         
-        <script>userIntroduction();</script>
-        <figure>
-            <a href="images/pelican.jpg">
-                <img id="pelican" src="images/pelican.jpg" height="275" alt="mascot pelican">
-            </a>
-            <figcaption>Pavel Designs Pelican</figcaption>
-        </figure>
+        <form>
+            <label for="names">Select a employee: 
+                <select id = "names" name = "names">
+                    <option value = "Missy Benson" selected>Missy Benson</option>
+                    <option value = "Phyllis Adkins">Phyllis Adkins</option>
+                    <option value = "Tim Todd">Tim Todd</option>
+                    <option value = "Bonnie Blake">Bonnie Blake</option>
+                    <option value = "Miranda Atwood">Miranda Atwood</option>
+                </select> 
+            </label>
+
+            <br><br>
+
+            <label for="enterSalary">Enter Salary:
+                <input type="text" id="enterSalary" name="enterSalary" autocomplete="off"><br>
+            </label>
+        </form>
+        
+        <br><br>
 
         <div class="buttonContainer">
-            <button type="button" onclick=multiply()>Multiply</button> 
-            <button type="button" onclick=pinkText()>Change text to Pink</button> 
-            <button type="button" onclick=greenText()>Change text to Green</button> 
-            <button type="button" onclick=hidePelican()>Hide Pelican</button> 
-            <button type="button" onclick=showPelican()>Show Pelican</button> 
+            <button type="button" onclick=displayResults()>Display Results</button> 
+            <button type="button" onclick=displaySalary()>Display Salaries</button> 
+            <button type="button" onclick=addSalary()>Add Salary</button> 
         </div>
 
-        <p id="sampleColorText">Here is some sample text</p>
-        
         <br>
-    
+
+        <div id="results"></div>
+
+        <table id="results_table"></table>
+
+        <br><br>
+        
+        
     </main>
 
     <footer>
