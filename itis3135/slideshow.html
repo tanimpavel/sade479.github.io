@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link href="styles/default.css" rel="stylesheet" type="text/css">
-    <title>Tanim Pavel, ITIS 3135, Name the Polygon</title>
-    <script src="scripts/namethepolygon.js"></script>
+    <title>Tanim Pavel, ITIS 3135, Slideshow</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="scripts/slideshow.js"></script>
 </head>
 
 <body>
@@ -36,11 +37,22 @@
     </nav>
 
     <main>
-        <h2>Name the Polygon</h2>
-
-        <script>nameThePolygon()</script>
+        <h2>Slideshow - Pelican Gallery</h2>
         
-        <p>Thank you for using our application to run the application again please refresh the page.</p>
+        <p>Click on an image to enlarge</p>
+        <ul id="slideShowImageList">
+            <li><a href="images/pelican_slideshow1.jpg" title="Pelican Retracting Neck"><img src="images/pelican_slideshow1.jpg" alt="pelican retracting neck" height="100" width="150"></a></li>
+            <li><a href="images/pelican_slideshow2.jpg" title="Pelican with Head Turned"><img src="images/pelican_slideshow2.jpg" alt="pelican with head turned" height="100" width="150"></a></li>
+            <li><a href="images/pelican_slideshow3.jpg" title="Pelican Side View"><img src="images/pelican_slideshow3.jpg" alt="pelican side view" height="100" width="150"></a></li>
+            <li><a href="images/pelican_slideshow4.jpg" title="Dark Pelican"><img src="images/pelican_slideshow4.jpg" alt="dark pelican" height="100" width="150"></a></li>
+            <li><a href="images/pelican_slideshow5.jpg" title="Flying Pelican"><img src="images/pelican_slideshow5.jpg" alt="flying pelican" height="100" width="150"></a></li>
+            <li><a href="images/pelican_slideshow6.jpg" title="Two Pelicans"><img src="images/pelican_slideshow6.jpg" alt="two pelicans" height="100" width="150"></a></li>
+        </ul>
+
+        <figure>
+            <img id="mainImage" src="images/pelican_slideshow1.jpg" alt="pelican retracting neck" height="300" width="450">
+            <figcaption id="mainImageCaption">Pelican Retracting Neck</figcaption>
+        </figure>
         
     
     </main>
