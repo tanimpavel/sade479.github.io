@@ -155,3 +155,9 @@ button {
 #slideShowImageList li {
     display: inline;
 }
+
+.contract {
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+}
