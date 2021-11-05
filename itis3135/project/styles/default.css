@@ -45,7 +45,6 @@ body {
 
 .imageGallery {
     display: flex;
-    align-items: top;
     flex-direction: row;
     gap: 5%;
 }
