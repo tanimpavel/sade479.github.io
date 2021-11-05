@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    
+header, footer{
+    text-align: center;
+    color: #d2d6ef;
+}
+
+nav {
+    text-align: center;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #d2d6ef;
+    background-color: #104547;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(230, 176, 76);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.personimage {
+    vertical-align: middle;
+    float: left;
+}
+
+.personwithimage {
+    display: flex;
+    align-items:center;
+}
+
+form {
+    text-align: center;
+}
+
+form input {
+    color:black;
+    background-color: beige;
+    text-align: center;
+}
+
+.contactFormInput {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+button {
+    background-color: palegreen;
+}
+
