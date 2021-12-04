@@ -77,11 +77,6 @@ ul {
     list-style-type: none;
 }
 
-li {
-    background-color: white;
-    box-shadow: 5px 10px 18px #888888;
-}
-
 #search {
     margin-left: 40%;
     font-size: large;
