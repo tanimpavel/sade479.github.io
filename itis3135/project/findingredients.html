@@ -5,6 +5,10 @@
     <title>Cooking from Bangladesh - Find Ingredients</title>
     <link href="styles/default.css" rel="stylesheet" type="text/css">
     <script src="scripts/htmlinclude.js"></script>
+    <link rel="stylesheet" href="styles/jquery-ui.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="scripts/jquery-ui.min.js"></script>
+    <script src="scripts/findingredients.js"></script>
 </head>
 
 <body>
@@ -12,25 +16,41 @@
 
     <main>
         <h2>Find Ingredients</h2>
-        <p class="centerText">Ingredients can be found mostly anywhere but here are some suggestions below. (todo implement JavaScript city select)</p>
+        <p class="centerText">Ingredients can be found mostly anywhere but here are some suggestions below.</p>
 
-        <h3>Asian Market - Charlotte</h3>
-        <p>Address - 4430 The Plaza, Charlotte, NC 28215</p>
+        <div id="accordion">
+            
+            <h3>Charlotte</h3>
+            <div>
+                <h4>Asian Market - Charlotte</h4>
+                <p>Address - 4430 The Plaza, Charlotte, NC 28215</p>
 
-        <h3>New Asia Market - Stallings</h3>
-        <p>4400 Potter Rd, Stallings, NC 28104</p>
+                <h4>International Supermarket - Charlotte</h4>
+                <p>4520 N Tryon St # 45, Charlotte, NC 28213</p>
+            </div>
 
-        <h3>International Supermarket - Charlotte</h3>
-        <p>4520 N Tryon St # 45, Charlotte, NC 28213</p>
+            <h3>Stallings</h3>
+            <div>
+                <h4>New Asia Market - Stallings</h4>
+                <p>4400 Potter Rd, Stallings, NC 28104</p>
+            </div>
 
-        <h3>Grand Asia Market - Raleigh</h3>
-        <p>1253 Buck Jones Rd, Raleigh, NC 27606</p>
+            <h3>Raleigh</h3>
+            <div>
+                <h4>Grand Asia Market - Raleigh</h4>
+                <p>1253 Buck Jones Rd, Raleigh, NC 27606</p>
+            </div>
 
-        <h3>Patel Brothers - Cary</h3>
-        <p>802 E Chatham St, Cary, NC 27511</p>
+            <h3>Cary</h3>
+            <div>
+                <h4>Patel Brothers - Cary</h4>
+                <p>802 E Chatham St, Cary, NC 27511</p>
 
-        <h3>Today Asia Market - Cary</h3>
-        <p>Plaza, 1207-I Kildaire, Kildaire Farm Rd, Cary, NC 27511</p>
+                <h4>Today Asia Market - Cary</h4>
+                <p>Plaza, 1207-I Kildaire, Kildaire Farm Rd, Cary, NC 27511</p>
+            </div>
+
+        </div>
     
     </main>
 
