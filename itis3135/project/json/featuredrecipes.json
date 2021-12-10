@@ -1,0 +1,23 @@
+{"featuredrecipes":[
+	{
+		"image": "images/beefcurry.jpg",
+		"imagealt": "beef curry",
+		"page": "beefcurry.html",
+		"title": "Bengali Beef Curry",
+        "description": "This spicy beef curry is best served with plain basmati rice or eaten with naan or pita bread."
+	},
+    {
+		"image": "images/gulabjamun.jpg",
+		"imagealt": "gulab jamun",
+		"page": "gulabjamun.html",
+		"title": "Gulab Jamun",
+        "description": "These are like little waffle balls that sit in and absorb a sugary rosewater syrup."
+	},
+    {
+		"image": "images/parathas.jpg",
+		"imagealt": "adipoli parathas",
+		"page": "parathas.html",
+		"title": "Adipoli Parathas",
+        "description": "A very tasty snack that is easy to make. This whole wheat flatbread with a spiced shrimp filling makes a great sandwich."
+	}
+]}

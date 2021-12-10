@@ -1,0 +1,44 @@
+{"recipes":[
+	{
+		"image": "images/beefcurry.jpg",
+		"imagealt": "beef curry",
+		"page": "beefcurry.html",
+		"title": "Bengali Beef Curry",
+        "description": "This spicy beef curry is best served with plain basmati rice or eaten with naan or pita bread."
+	},
+    {
+		"image": "images/dhal.jpg",
+		"imagealt": "dhal",
+		"page": "dhal.html",
+		"title": "Bengali Dhal",
+        "description": "This bengali dhal is made with lentils and a variety of spices and is best served with basmati rice."
+	},
+    {
+		"image": "images/gulabjamun.jpg",
+		"imagealt": "gulab jamun",
+		"page": "gulabjamun.html",
+		"title": "Gulab Jamun",
+        "description": "These are like little waffle balls that sit in and absorb a sugary rosewater syrup."
+	},
+    {
+		"image": "images/beefsamosa.jpg",
+		"imagealt": "beef samosa",
+		"page": "beefsamosa.html",
+		"title": "Beef Samosa",
+        "description": "Beef and potatoes are the main ingredients folded inside these wonderful deep fried samosas."
+	},
+    {
+		"image": "images/parathas.jpg",
+		"imagealt": "adipoli parathas",
+		"page": "parathas.html",
+		"title": "Adipoli Parathas",
+        "description": "A very tasty snack that is easy to make. This whole wheat flatbread with a spiced shrimp filling makes a great sandwich."
+	},
+    {
+		"image": "images/butterlambgravy.jpg",
+		"imagealt": "butter lamb gravy",
+		"page": "butterlambgravy.html",
+		"title": "Butter Lamb Gravy",
+        "description": "Lamb is simmered in a spicy tomato and cream sauce. Serve with hot cooked rice or your favorite bread."
+	}
+]}

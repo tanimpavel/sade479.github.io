@@ -1,9 +1,9 @@
-const listTemplate = '<div><img src="IMAGESRC" alt="IMAGEALT" width="420" height="300"><div><h3>TITLE</h3><p>DESCRIPTION</p><a href="PAGE">View Recipe</a></div></div>';
+const listTemplate = '<li><div class="imageGallery"><img src="IMAGESRC" alt="IMAGEALT" width="275" height="200"><div><h3><a href="PAGE">TITLE</a></h3><p>DESCRIPTION</p></div></div><br><li>';
 
 $(document).ready(function(){
     $.ajax({
         type: "get",
-        url: "json/featuredrecipes.json",
+        url: "json/recipes.json",
         beforeSend: function() {
             console.log();
         },
@@ -21,16 +21,7 @@ $(document).ready(function(){
                     listBuilder = listBuilder.replace("PAGE", value.page);
                     listBuilder = listBuilder.replace("TITLE", value.title);
                     listBuilder = listBuilder.replace("DESCRIPTION", value.description);
-                    $(".bxslider").append(listBuilder);
-                });
-            });
-            $(function(){
-                $('.bxslider').bxSlider({
-                  mode: 'fade',
-                  auto: true,
-                  pause: 6000,
-                  touchEnabled: false,
-                  slideWidth: 600
+                    $("#recipelist").append(listBuilder);
                 });
             });
         }
